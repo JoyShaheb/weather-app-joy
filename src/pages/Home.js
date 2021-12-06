@@ -18,7 +18,8 @@ const Home = () => {
   console.log(rawData);
 
   let base = `https://api.openweathermap.org/data/2.5/weather`;
-  let key = `${process.env.REACT_APP_OPEN_WEATHER_API}`;
+  // let key = `${process.env.REACT_APP_OPEN_WEATHER_API}`;
+  let key = `e2778808fa4791c7016333fe05293447`;
   let api = `${base}?q=${search}&units=${unit[0]}&appid=${key}`;
 
   useEffect(() => {
